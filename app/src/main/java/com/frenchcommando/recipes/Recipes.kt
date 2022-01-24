@@ -46,7 +46,7 @@ object Recipes {
             )),
         Recipe(
             "Corn Bread",
-            R.drawable.pasta,
+            R.drawable.cornbread,
             RecipeDescription(
                 description =
                     "For Corn Bread" +
