@@ -19,8 +19,8 @@
     <style name="Theme.DesignDemo" parent="Base.Theme.DesignDemo"></style>
 
     <style name="Base.Theme.DesignDemo" parent="Theme.MaterialComponents.DayNight.NoActionBar">
-        <item name="colorPrimary">#673AB7</item>
-        <item name="colorPrimaryVariant">#512DA8</item>
+        <item name="colorPrimary">#DC3D6F</item>
+        <item name="colorPrimaryVariant">#F44336</item>
         <item name="colorSecondary">#FF4081</item>
     </style>
 
