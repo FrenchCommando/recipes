@@ -1,4 +1,4 @@
-package com.frenchcommando.recipes
+package com.frenchcommando.recipes2
 
 class RecipeDescription(
     val description: String = "",
@@ -49,15 +49,15 @@ object Recipes {
             R.drawable.cornbread,
             RecipeDescription(
                 description =
-                    "For Corn Bread" +
-                            "\n" +
-                            "cornmeal, flour, baking powder, baking soda salt" +
-                            "\n" +
-                            "melted butter, brown sugar, honey" +
-                            "\n" +
-                            "egg" +
-                            "\n" +
-                            "buttermilk",
+                "For Corn Bread" +
+                        "\n" +
+                        "cornmeal, flour, baking powder, baking soda salt" +
+                        "\n" +
+                        "melted butter, brown sugar, honey" +
+                        "\n" +
+                        "egg" +
+                        "\n" +
+                        "buttermilk",
                 ingredients = listOf(
                     "120g fine cornmeal",
                     "125g all-purpose flour",
@@ -70,6 +70,40 @@ object Recipes {
                     "240mL buttermilk room temperature"
                 ),
                 oven="400F 204C - 20 min"
+            )),
+        Recipe(
+            "Yellow Cake",
+            R.drawable.cornbread,
+            RecipeDescription(
+                description =
+                    "6in tins",
+                ingredients = listOf(
+                    "2.5 cups all-purpose flour",
+                    "0.75 tsp salt",
+                    "2.25 baking powder",
+                    "",
+                    "3/4 cup 170g unsalted butter - room temperature",
+                    "1.66 granulated sugar",
+                    "3 eggs - one at a time",
+                    "1 Tbsp 15mL Vanilla",
+                    "",
+                    "add: 1 cup buttermilk + dry ingredients",
+                    "",
+                    "Ganache",
+                    "1/4 cup 70g unsalted butter",
+                    "1/4 cup 25g cocoa",
+                    "Chocolate",
+                    "1/3 cup semisweet or bittersweet chocolate",
+                    "1/4 cup 60mL milk",
+                    "Buttercream",
+                    "1 cup 2 sticks butter",
+                    "+ chocolate",
+                    "1/2 tsp salt",
+                    "3 cups 1lb 450g powdered sugar",
+                    "1/4 60mL cup milk",
+                    "+ ganache",
+                ),
+                oven="350F - 30 min"
             )),
     )
     private fun getBaking(name: String?) : Recipe? {

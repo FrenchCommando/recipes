@@ -1,4 +1,4 @@
-package com.frenchcommando.recipes
+package com.frenchcommando.recipes2
 
 import android.content.Intent
 import android.os.Bundle
